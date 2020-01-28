@@ -5,6 +5,7 @@ def main():
     print("Input: ")
     sentence = input()
     print(alphabet_position(sentence))
+    sentence_Int = ""
 
 def alphabet_position(sentence):
     global sentence_Int
