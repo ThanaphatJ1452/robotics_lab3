@@ -12,7 +12,7 @@ def main():
     sentence = input()
     convertToInt(sentence)
 
-def convertToInt(sentence):
+def alphabet_position(sentence):
     global sentence_Int
     
     for c in sentence.lower():
