@@ -1,14 +1,11 @@
-sentence_Int = str()
-
 def main():
     
     print("Input: ")
     sentence = input()
     print(alphabet_position(sentence))
-    sentence_Int = ""
 
 def alphabet_position(sentence):
-    global sentence_Int
+    sentence_Int = str()
     
     for c in sentence.lower():
         if(ord(c) >= 97 and ord(c) <= 122):
